@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin : 0;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: rgb(182, 255, 72);
+    height: 70px;
+    font-weight: 600;
+}
+li{
+    padding-top: 13px;
+    padding-left: 220px;
+    font-size: 30px;
+}
+li a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: aqua;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: rgb(217, 160, 85);
+    color: white;
+}
+.calculatordiv{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 16%;
+    height: 240px;
+    padding-top: 50px;
+    align-items: center;
+}
+.firstline,.secondline,.thirdline{
+    padding: 5px;
+}
+.fourthline button{
+    padding:9px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button{
+    padding: 7px 14px;
+}
+input{
+    width: 165px;
+    height: 30px;
+}
+button:hover{
+    background-color: rgb(217, 160, 85);
+}
+button:active{
+    background-color: rgb(191, 240, 224);
+}
+.c:active,.o:active{
+    background-color: #fd7070;
+}
